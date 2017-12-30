@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Online Game Shop</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Online GameShop">
+    <meta name="author" content="Eman Mohammed">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+</head>
+    
+<body onLoad="photoA()">
+        
+<div id="nav">
+    <nav class="navbar navbar-dark bg-dark">
+       <button id="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+           
+        </button>
+        <p><span id="game" ></span>
+           <span id="gText">Games</span></p>
+     </nav>
+    <div id="navbarToggleExternalContent" class="aside" >
+        <ul id="menu">
+                <li><a href="#" target="_blank"><span id="login"></span>Login</a> </li>
+                <hr/>
+                <li><a href="#" target="_blank">Catagoies</a></li><br />
+                <li><a href="#" target="_blank">Highlight</a></li><br />
+                <li><a href="#" target="_blank">Top</a></li><br />
+                <li><a href="#" target="_blank">New</a></li><br />
+                <li><a href="#" target="_blank">Recommended</a></li>
+                <hr/>
+                <li><a href="#" target="_blank"><span id="help"></span>Help</a></li>
+         </ul>
+    </div>
+</div>
+    
+<div id="nav2" class="navigation">
+    <nav class="navbar navbar-dark bg-dark">
+        <li class="navItem"><a href="#" target="_blank">Catagoies</a></li><br />
+        <li class="navItem"><a href="#" target="_blank">Highlight</a></li><br />
+        <li class="navItem"><a href="#" target="_blank">Top</a></li><br />
+        <li class="navItem"><a href="#" target="_blank">New</a></li><br />
+        <li class="navItem"><a href="#" target="_blank">Recommended</a></li>
+    </nav>
+</div>
+
+<div id="slider">
+    <img src="assets/images/carousel/img1.png" id="image" />
+    <div class="left_hold"><img onClick="photo(1)" class="left" src="assets/images/arrow_left.png"></div>
+    <div class="right_hold"><img onClick="photo(2)" class="right" src="assets/images/arrow_right.png"></div>
+</div>
+    
+
+ <header class="header">
+    <h4>Action and Adventure:</h4>
+    <a href="#">more</a>
+</header>
+ <div id="Action">   
+      <ul id="firstGroup">
+          <li class="images">
+            <div class="card" style="width: 14rem;">
+                <img id="img1" class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <p id="name1" class="card-name"></p>
+                        <p id="publisher1" class="card-publisher"></p>
+                        <p id="rate1"><span class="star"></span></p>
+                    </div>
+                </div>
+            </li>
+          
+     <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img2" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+                        <p id="name2" class="card-name"></p>
+                        <p id="publisher2" class="card-publisher"></p>
+                        <p id="rate2"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img3" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name3" class="card-name"></p>
+                        <p id="publisher3" class="card-publisher"></p>
+        <p id="rate3"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img4" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name4" class="card-name"></p>
+                        <p id="publisher4" class="card-publisher"></p> 
+        <p id="rate4"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img5" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name5" class="card-name"></p>
+                        <p id="publisher5" class="card-publisher"></p>  
+        <p id="rate5"><span class="star"></span></p>
+         </div>
+   </div>
+              </li>
+          <li class="images">
+     
+     <div class="card" style="width: 14rem;">
+  <img id="img6" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name6" class="card-name"></p>
+                        <p id="publisher6" class="card-publisher"></p>  
+        <p id="rate6"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img7" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name7" class="card-name"></p>
+                        <p id="publisher7" class="card-publisher"></p>   
+        <p id="rate7"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img8" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name8" class="card-name"></p>
+                        <p id="publisher8" class="card-publisher"></p> 
+        <p id="rate8"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img9" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name9" class="card-name"></p>
+                        <p id="publisher9" class="card-publisher"></p>  
+         <p id="rate9"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+       <img id="img10" class="card-img-top" src="" alt="Card image cap">
+         <div class="card-body">
+ <p id="name10" class="card-name"></p>
+                        <p id="publisher10" class="card-publisher"></p>   
+         <p id="rate10"><span class="star"></span></p>
+         </div>
+    </div>  
+   </li>
+  </ul>
+    </div>
+<header class="header">
+    <h4>Casual Games:</h4>
+    <a href="#">more</a>
+</header>
+<div id="casual">
+      <ul id="secondGroup">
+          <li class="images">
+            <div class="card" style="width: 14rem;">
+                <img id="img11" class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+ <p id="name11" class="card-name"></p>
+                        <p id="publisher11" class="card-publisher"></p>    
+                <p id="rate11"><span class="star"></span></p>
+                </div>
+                </div>
+            </li>
+          
+     <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img12" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name12" class="card-name"></p>
+                        <p id="publisher12" class="card-publisher"></p>  
+         <p id="rate12"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img13" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name13" class="card-name"></p>
+                        <p id="publisher13" class="card-publisher"></p>  
+         <p id="rate13"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img14" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name14" class="card-name"></p>
+                        <p id="publisher14" class="card-publisher"></p>  
+         <p id="rate14"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img15" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name15" class="card-name"></p>
+                        <p id="publisher15" class="card-publisher"></p>  
+         <p id="rate15"><span class="star"></span></p>
+         </div>
+   </div>
+              </li>
+          <li class="images">
+     
+     <div class="card" style="width: 14rem;">
+  <img id="img16" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name16" class="card-name"></p>
+                        <p id="publisher16" class="card-publisher"></p> 
+         <p id="rate16"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img17" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name17" class="card-name"></p>
+                        <p id="publisher17" class="card-publisher"></p>  
+         <p id="rate17"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img18" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name18" class="card-name"></p>
+                        <p id="publisher18" class="card-publisher"></p>   
+         <p id="rate18"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+  <img id="img19" class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+ <p id="name19" class="card-name"></p>
+                        <p id="publisher19" class="card-publisher"></p>   
+         <p id="rate19"><span class="star"></span></p>
+         </div>
+   </div>
+     </li>
+          <li class="images">
+     <div class="card" style="width: 14rem;">
+       <img id="img20" class="card-img-top" src="" alt="Card image cap">
+         <div class="card-body">
+ <p id="name20" class="card-name"></p>
+                        <p id="publisher20" class="card-publisher"></p>    
+         <p id="rate20"><span class="star"></span></p>
+         </div>
+    </div>  
+   </li>
+  </ul>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>

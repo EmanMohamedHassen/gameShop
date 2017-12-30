@@ -1,0 +1,166 @@
+$mainWidth :100%;
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+*{
+	margin: 2px;
+}
+.aside{
+    display: none;
+    width: 200px;
+    height: 700px;
+    margin-top: 15px;
+    background-color: white;
+    float: left;
+    margin: auto;
+    padding: 10px;   
+}
+#menu{
+    text-decoration: none;
+    list-style-type: none;
+}
+#button:hover{
+    .aside{display: block;}
+}
+#nav2{
+    margin-top: 5px;
+    
+}
+.navItem{
+    text-decoration: none;
+    list-style-type: none;
+}
+#gText{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 5px;
+}
+#game{
+     width: 46px;
+    height: 44px;
+    background: url("../assets/images/game.png") 0 0;
+    border-radius: 20px;
+    float: left;
+    
+}
+#login {
+    width: 46px;
+    height: 44px;
+    background: url("../assets/images/sprite.png") 0 0;
+    float: left;
+}
+#help{
+    width: 46px;
+    height: 44px;
+    background: url("../assets/images/sprite.png") -600px 0;
+    float: left;
+}
+#slider {
+	height:500px;
+	width:1000px;
+	margin: 50px auto;
+	position:relative;
+	border-radius:4px;
+	overflow:hidden;
+}
+#image {
+	height:500px;
+	width:1000px;
+	position:absolute;
+}
+.left_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+.right_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+.left {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	transition: all 2s ease-in-out 0s;
+}
+.right {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	right:20px;
+	opacity:0;
+	transition: all 2s ease-in-out 0s;
+}
+.left_hold:hover .left {
+	opacity:0.4;
+}
+.right_hold:hover .right {
+	opacity:1;
+}
+header{
+    display: inline;
+    margin: 2px;
+    padding: 5px;
+    h4{
+        float: left;
+        color: cadetblue;
+    }
+        a{
+            display: inline;
+            float: right;
+
+         }
+}
+#action{
+    display: block;
+     width: 100%;
+    overflow: scroll;
+}
+#firstGroup{
+    width: 200%;
+    .images{ 
+        display: inline;
+        float: left;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+}
+#casual{
+    display: inherit;
+     width: 200%;
+    overflow-x: visible;
+    overflow-y: hidden;
+    
+}
+#secondGroup{
+    width: 200%;
+    .images{ 
+        display: inline;
+        float: left;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+}
+.card-name{
+    font-weight: bold;
+}
+.star{
+    width: 30px;
+    height: 27px;
+    background: url("../assets/images/star.png") 0 0;
+    background-repeat: no-repeat;
+    float: left;
+}
